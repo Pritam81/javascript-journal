@@ -20,5 +20,21 @@ console.log(userName[3],userName[2]);
 const dob='22/02/2003'; //const value must be initialized 
 console.log('the value of ',dob);
 console.log(`the datatype of dob is`,typeof dob);
-dob='1'//this gives error , const variables cannot be changes
+//dob='1'//this gives error , const variables cannot be changes
 
+//variable using var (not recommended its old)
+//difference between var and let is that var retains the value inside as well as inside block but let retains only inside block and not outside
+
+//block1
+{
+    let x=10
+    console.log(`inside block of let-`,x);
+
+}
+//accessing variable declared with let keyword outside block gives error 
+//console.log(x);
+{
+    var y=20;
+    console.log(`inside block of var -`,y);
+}
+console.log(`outside block of var -`,y);
