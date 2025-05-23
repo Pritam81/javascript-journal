@@ -16,3 +16,9 @@ console.log('The datatype of age is now',typeof age);
 //accessing the character of username
 console.log(userName[3],userName[2]);
 
+//variable using const
+const dob='22/02/2003'; //const value must be initialized 
+console.log('the value of ',dob);
+console.log(`the datatype of dob is`,typeof dob);
+dob='1'//this gives error , const variables cannot be changes
+
