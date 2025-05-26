@@ -23,5 +23,3 @@ This repo helps me stay consistent and gives others something genuinely usefulâ€
 
 ---
 
-## ğŸ“ Structure
-
