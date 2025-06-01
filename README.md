@@ -2,7 +2,7 @@
 
 This repository is a daily stream of advanced JavaScript insights, clean code snippets, and real-world patterns I've used or refined through experience.
 
-As someone who's already past the basics, this is my space to **sharpen skills, share knowledge**, and contribute meaningful content to the JavaScript community.
+As someone who's already past the basics, this is my space to **sharpen skills, share knowledge**, and contribute meaningful content to the JavaScript community....
 
 ---
 
