@@ -28,3 +28,11 @@ console.log(stringwithspaces2.trimEnd(),"after trimEnd"); // "   Hello, World!"
 let sentence= "The quick brown fox jumps over the lazy dog.";
 console.log(sentence.includes("quick")); // true
 console.log(sentence.includes("cat")); // false
+//indexOf method returns the index of the first occurrence of a substring in a string
+console.log(sentence.indexOf("fox")); // 16
+console.log(sentence.indexOf("cat")); // -1 (not found)
+console.log(sentence.indexOf("o")); // 26
+//lastIndexOf method returns the index of the last occurrence of a substring in a string
+console.log(sentence.lastIndexOf("o")); // 41
+console.log(sentence.lastIndexOf("over")); // 26
+// -1 (not found)
