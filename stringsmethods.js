@@ -20,3 +20,7 @@ console.log(lowerstr); // "hello, world!"
 let stringwithspaces = "   Hello, World!    ";
 console.log(stringwithspaces,"without trim"); //   Hello, World!    
 console.log(stringwithspaces.trim(),"after trim"); // "Hello, World!"
+//trimStart and trimEnd methods remove whitespace from the start and end of a string respectively
+let stringwithspaces2 = "   Hello, World!    ";
+console.log(stringwithspaces2.trimStart(),"after trimStart"); // "Hello, World!    "
+console.log(stringwithspaces2.trimEnd(),"after trimEnd"); // "   Hello, World!"
