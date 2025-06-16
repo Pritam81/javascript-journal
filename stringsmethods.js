@@ -42,3 +42,15 @@ console.log(newSentence.replace("P", "John") ,"(after replace)"); // "my name is
 console.log(newSentence.replace("m", "John") ,"(after replace)"); // "jhony name is Pritam"
 //replaceAll method replaces all occurrences of a substring with another substring in a string
 console.log(newSentence.replaceAll("m", "John")); // "Johny name is JohnitJohn"
+//concat method concatenates two or more strings
+let str1 = "Hello";
+let str2 = "World";     
+console.log(str1.concat(str2)); // "Hello World"
+console.log(str1.concat(" ", str2,"haha")); // "Hello World haha"
+console.log(str1 + " " + str2); // "Hello World" (using + operator)
+//padStart and padEnd methods add padding to the start or end of a string to reach a specified length
+let paddedStr = "+91";
+console.log(paddedStr.padStart(12, "0")); 
+console.log(paddedStr.padEnd(12, "0")); 
+
+;
