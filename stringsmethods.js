@@ -52,5 +52,8 @@ console.log(str1 + " " + str2); // "Hello World" (using + operator)
 let paddedStr = "+91";
 console.log(paddedStr.padStart(12, "0")); 
 console.log(paddedStr.padEnd(12, "0")); 
-
-;
+//charAt method returns the character at a specified index in a string
+let exampleStr = "Hello, Worlda!";
+console.log(exampleStr.charAt(4)); // "o"
+//charCodeAt method returns the Unicode value of the character at a specified index in a string
+console.log(exampleStr.charCodeAt(12)); // 97 (Unicode value of 'a')
