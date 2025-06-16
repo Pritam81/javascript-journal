@@ -24,3 +24,7 @@ console.log(stringwithspaces.trim(),"after trim"); // "Hello, World!"
 let stringwithspaces2 = "   Hello, World!    ";
 console.log(stringwithspaces2.trimStart(),"after trimStart"); // "Hello, World!    "
 console.log(stringwithspaces2.trimEnd(),"after trimEnd"); // "   Hello, World!"
+//includes method checks if a string contains a substring and returns boolean value
+let sentence= "The quick brown fox jumps over the lazy dog.";
+console.log(sentence.includes("quick")); // true
+console.log(sentence.includes("cat")); // false
