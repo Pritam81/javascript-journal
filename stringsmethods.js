@@ -62,5 +62,6 @@ let csv = "apple,banana,cherry";
 console.log(csv);// "apple,banana,cherry"
 console.log(csv.split(",")); // ["apple", "banana", "cherry"]
 console.log(csv.split("a"));
-console.log(csv.split("")); // ["a", "p", "p", "l", "e", ",", "b", "a", "n", "a", "n", "a", ",", "c", "h", "e", "r", "r", "y"]
+console.log(csv.split(""));
+ // ["a", "p", "p", "l", "e", ",", "b", "a", "n", "a", "n", "a", ",", "c", "h", "e", "r", "r", "y"]
 //slice method extracts a portion of a string and returns it as a new string
