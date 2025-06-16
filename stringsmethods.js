@@ -16,3 +16,7 @@ console.log(upperstr); // "HELLO, WORLD!"
 // converting str to lowercase and storing it
 let lowerstr = str.toLowerCase();   
 console.log(lowerstr); // "hello, world!"
+//trim method removes whitespace from both ends of a string
+let stringwithspaces = "   Hello, World!    ";
+console.log(stringwithspaces,"without trim"); //   Hello, World!    
+console.log(stringwithspaces.trim(),"after trim"); // "Hello, World!"
