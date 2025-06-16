@@ -35,4 +35,7 @@ console.log(sentence.indexOf("o")); // 26
 //lastIndexOf method returns the index of the last occurrence of a substring in a string
 console.log(sentence.lastIndexOf("o")); // 41
 console.log(sentence.lastIndexOf("over")); // 26
-// -1 (not found)
+//replace method replaces a substring with another substring in a string
+let newSentence = "my name is Pritam";
+console.log(newSentence,"(without replace)"); // "my name is Pritam"
+console.log(newSentence.replace("P", "John") ,"(after replace)"); // "my name is ritamJohn"
