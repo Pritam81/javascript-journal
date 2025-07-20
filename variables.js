@@ -38,3 +38,9 @@ console.log(`the datatype of dob is`,typeof dob);
     console.log(`inside block of var -`,y);
 }
 console.log(`outside block of var -`,y);
+
+//declaration diff of var and let
+var sister = "anjani"
+var sister = "soring"
+let brother ="sugam"
+//let brother= "Amypme"
